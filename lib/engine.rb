@@ -14,7 +14,7 @@ module PluginExample
     # Mount new API resource in hook (friendly with development environment).
     # More about configuration stages: http://guides.rubyonrails.org/configuring.html#configuring-action-dispatch
     config.to_prepare do
-      mount HelloWorld
+      APIv2::Mount.mount APIv2::HelloWorld
     end
   end
 end

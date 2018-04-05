@@ -1,1 +1,1 @@
-require_relative 'lib/plugin_example'
+require_relative 'lib/engine'
